@@ -1,2 +1,2 @@
 # Databases Advanced - EntityFramework
-Course SoftUni 2017
+Course SoftUni 2017.
