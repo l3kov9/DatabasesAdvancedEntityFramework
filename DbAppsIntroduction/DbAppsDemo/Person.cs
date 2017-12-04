@@ -1,0 +1,23 @@
+﻿namespace DbAppsDemo
+{
+    public class Person
+    {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public string JobTitle { get; set; }
+
+        public Person(string firstName, string lastName, string jobTitle)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.JobTitle = jobTitle;
+        }
+
+        public override string ToString()
+        {
+            return $"{this.FirstName} {this.LastName} is a {this.JobTitle}";
+        }
+    }
+}
